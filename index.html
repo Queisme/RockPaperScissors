@@ -8,6 +8,26 @@
   </head>
   <body>
     <h1>Rock, Paper, Scissors</h1>
+    <p>
+      <button
+        class="rock"
+        onclick="playerPick = 'rock'; console.log(`Players Pick: ${playerPick}`), getComputerChoice(), console.log(`Computers Pick: ${computerPick}`), compare();"
+      >
+        Rock
+      </button>
+      <button
+        class="paper"
+        onclick="playerPick = 'paper'; console.log(`Players Pick: ${playerPick}`), getComputerChoice(), console.log(`Computers Pick: ${computerPick}`),  compare();"
+      >
+        Paper
+      </button>
+      <button
+        class="scissors"
+        onclick="playerPick = 'scissors'; console.log(`Players Pick: ${playerPick}`), getComputerChoice(), console.log(`Computers Pick: ${computerPick}`), compare();"
+      >
+        Scissors
+      </button>
+    </p>
     <script src="script.js"></script>
   </body>
 </html>
